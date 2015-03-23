@@ -11,19 +11,19 @@
 ```
 (get-nicovideo-view-count-by-id 1397552685)
 ```
-=> gochiusa ep01's views count
+=> ごちうさ1話再生数
 ```
-(get-nicovideo-view-count-by-gochiusa-ep 3)
+(get-nicovideo-view-count-by-gochiusa-ep 2)
 ```
-=> gochiusa ep03's views count
+=> ごちうさ2話再生数
 
 # Todo
-[ ] 以下のように、interactiveで適切に動作するように修正する
+- [ ] 以下のように、interactiveで適切に動作するように修正する(現状、url-retrieve-synchronouslyの保存が上手く動いていない模様)
 ```
-M-x get-nicovideo-view-count-by-id RET 1398130645 RET
+M-x get-nicovideo-view-count-by-id RET 1398329907 RET
 ```
-=> gochiusa ep02's views count
+=> ごちうさ3話再生数
 ```
 C-u M-x get-nicovideo-view-count-by-gochiusa-ep RET
 ```
-=> gochiusa ep04's views count
+=> ごちうさ4話再生数
